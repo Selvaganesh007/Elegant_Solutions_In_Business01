@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.navbar .btn {
+    border: none;
+}
+
+.fa-search {
+    color: white;
+}
+
+.navbar-collapse ul li:hover {
+    background-color: #f61313;
+}
+
+.dropdown-menu {
+    background-color: #f61313;
+}
+
+.maincom {
+    position: absolute;
+    top     : 50%;
+    left    : 25%;
+    width   : 50%;
+    margin  : auto;
+}
+
+.maincom h2 {
+    background-color: #f61313;
+    color           : white;
+}
+
+.maincom p {
+    color           : white;
+    background-color: rgba(0, 0, 0, 0.534);
+}
+
+.icon--item {
+    background-color: #ebebeb;
+    color           : #009200;
+    margin          : 2px;
+    border-radius   : 15px;
+}
+
+.icon--item:hover {
+    box-shadow: 2px 2px 8px black;
+    transition: .5s;
+    color     : hsl(0, 100%, 51%);
+}
+
+.icon--item .btn:hover {
+    background-color: #f61313;
+}
+
+.icon--item .fas,
+.icon--item .far {
+    font-size     : 50px;
+    padding-bottom: 10px;
+}
+
+.icon--item .btn {
+    margin-bottom: -110px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+#contact {
+    background-color: rgb(112, 197, 112);
+    color           : white;
+}
+
+#copy {
+    background-color: #009200;
+}
+
+#copy a {
+    color: white;
+}
+
+.footer--content--item--icons {
+    display        : flex;
+    justify-content: space-evenly;
+}
+
+#featur .fas {
+    color: #009200;
+}
+
+#featur ul li {
+    font-size: 15px;
+    color    : rgb(100, 100, 100);
+}
+
+@media only screen and (max-width: 800px) {
+    .maincom {
+        text-align: center;
+        position: relative;
+        width   : 80%;
+        height: 60px;
+        top: 0px;
+        left: 0%;
+        margin  : auto;
+        margin: 30px 30px;
+    }
+}
